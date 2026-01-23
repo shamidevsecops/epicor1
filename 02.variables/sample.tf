@@ -41,3 +41,22 @@ variable "boolean" {
 output "bool" {
   value = var.boolean
 }
+
+variable "list1" {
+  default = ["abc",123,true]
+}
+
+output "list" {
+  value = var.list1[1]
+}
+
+variable "map" {
+  default = {
+    name = "Devops"
+    skill = "Engineer"
+  }
+}
+
+output "map" {
+  value = var.map["name"]
+}
