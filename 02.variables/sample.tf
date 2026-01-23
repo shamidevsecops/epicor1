@@ -62,3 +62,7 @@ output "map" {
 }
 
 variable "x2" {}
+
+output "x2" {
+  value = var.x2
+}
