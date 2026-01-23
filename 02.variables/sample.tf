@@ -34,3 +34,10 @@ output "num2" {
   value = var.number2
 }
 
+variable "boolean" {
+  default = true
+}
+
+output "bool" {
+  value = var.boolean
+}
