@@ -60,3 +60,5 @@ variable "map" {
 output "map" {
   value = var.map["name"]
 }
+
+variable "x2" {}
