@@ -17,3 +17,20 @@ variable "string1" {
 output "string" {
   value = var.string1
 }
+
+variable "number1" {
+  default = 100
+}
+
+output "num" {
+  value = var.number1
+}
+
+variable "number2" {
+  default = 100.1
+}
+
+output "num2" {
+  value = var.number2
+}
+
